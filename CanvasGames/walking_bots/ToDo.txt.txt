@@ -1,0 +1,24 @@
+Create a SpriteVideoObject
+--------------------------
+	Extend the VideoObject with a SpriteVideoObject: The frames should be handled in the SpriteVideoObject,
+	and not in the VideoObject. Revert the VideoObject to what it was, meaning that it should deal only
+	with position, speed and a single image.
+	
+
+Add the other directions
+------------------------
+       Currently, the direction covered in the image are only going up/down/right.
+       Add the left image in the jpg image, then adapt the future SpriteVideoObject
+       to cover the other directions for the bots.
+       
+Add collisions
+--------------
+	Regarless if other directions are added or not, the bots collide between themselves,
+	but nothing happen so far. Add a collision detection, and the bots should change directions
+
+Add Stearing
+------------
+	The bots are going in straight line, so maybe the stearing functions, as discussed in the
+	book [Programming Game AI by Example - Mat Buckland]. There are many items to cover here,
+	like following path, flock behavior, pursut etc...
+	
